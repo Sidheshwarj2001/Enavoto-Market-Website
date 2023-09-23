@@ -1,0 +1,262 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+ }
+ .menubar1{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+ }
+ .menubar1 button{
+    margin-top: -45px;
+ }
+ .menubar2{
+    height: 100px;
+    
+ }
+ .menubar2 .img{
+    padding-left: 350px;
+    padding-top: 45px;
+    float: left;
+ }
+ .menubar{
+    color: rgb(188, 186, 186);
+    font-weight: bold;
+    /* font-size: 20px; */
+    float: left;
+    padding-left: 350px;
+ }
+ .menubar ul li{
+    display: inline-block;
+    padding-left: 25px;
+    margin-top: 35px;
+ }
+ .menubar button{
+    margin-right: 300px;
+    /* border-radius: 20px; */
+    margin-top: -50px;
+
+ }
+ .homeText{
+    padding-top: 50px;
+    padding-left: 400px;
+    float: left;
+
+ }
+ .homeText h1{
+    font-size: 70px;
+ }
+ .img1{
+    float: left;
+ }
+ .serv{
+   width: 80%;
+   height: auto;
+   float: left;
+   /* background-color: red; */
+   margin-left: 20%;
+   padding-top: 100px;
+ }
+ .serc1{
+   width: 25%;
+   height: auto;
+   padding-top: 60px;
+   float: left;
+   /* padding-bottom: 20px; */
+ }
+ .serc1 img{
+   margin-left: 150px;
+ }
+ .serc1:hover{
+   border: 3px dotted orange;
+   /* border-radius: 20px; */
+   box-shadow: 1px 1px 15px 1px black;
+ }
+
+ /* about  */
+ .about{
+   width: 100%;
+   height: auto;
+float: left;
+
+ }
+ .aboutImg img{
+   padding-top: 120px;
+   padding-left: 350px;
+ }
+ .aboutText{
+   width: 30%;
+   padding-top: 250px;
+   margin-left: -30px;
+ }
+
+ .workDetail{
+   padding-top: 50px;
+ }
+
+ .work1{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   float: left;
+   /* margin-top: 20px; */
+   margin-left: 30px;
+    box-shadow:0.5px 0.5px 8px black;
+ }
+ .work2{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   float: left;
+   /* margin-top: 20px; */
+   margin-left: 30px;
+    box-shadow:0.5px 0.5px 8px black;
+ }
+ .work3{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   float: left;
+   margin-top: 220px;
+   margin-left: -350px;
+    box-shadow:0.5px 0.5px 8px black;
+ }
+ .work4{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   float: left;
+   margin-top: 220px;
+   margin-left: -100px;
+    box-shadow:0.5px 0.5px 8px black;
+ }
+ .work{
+   width: 100%;
+   height: auto;
+   background-color: red;
+   
+ }
+ .worktext{
+   width: 30%;
+   margin-left: 20%;
+   padding-top: 100px;
+
+ }
+ .work1:hover{
+   border: 4px dotted orange;
+ }
+ .work2:hover{
+   border: 4px dotted orange;
+ }
+ .work3:hover{
+   border: 4px dotted orange;
+ }
+ .work4:hover{
+   border: 4px dotted orange;
+ }
+
+
+ /* project  */
+ .project{
+   width: 60%;
+   margin-left: 20%;
+   padding-top: 100px;
+   height: auto;
+ }
+ .projectText{
+   width: 100%;
+   padding-top: 100px;
+   float: left;
+ }
+ .projectText ul{
+   /* background-color: red; */
+   margin-top: 50px;
+ }
+ .projectText ul li{
+   display: inline-block;
+   margin-left: 60px;
+   padding:15px 40px;
+   border: 1px solid black;
+   /* border-radius: 20px; */
+ }
+ .projectText ul li:hover{
+   background-color: orange;
+ }
+ .projectDetail{
+   width: 100%;
+   height: auto;
+   float: left;
+   padding-top: 50px;
+ }
+ .project1{
+   width: 30%;
+   float: left;
+   margin-left: 30px;
+
+ }
+ .project1:hover{
+   border-radius: 10px;
+   box-shadow:0.5px 0.5px 10px black;
+}
+ .project1 img{
+   width: 100%;
+   /* padding-top: 30px; */
+ }
+
+ /* Pricing  */
+
+ .Pricing{
+  width: 100%;
+  height: auto;
+  float: left;
+/* background-color: red; */
+
+ }
+ .pricingSection{
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+  height: auto;
+ }
+ .pricingCol{
+  width: 30%;
+  float: left;
+  height: auto;
+  padding: 40px;
+  margin-left: 20px;
+  box-shadow:0.1px 0.1px 10px 0.1px black;
+/* padding-top: 40px; */
+box-sizing: border-box;
+ }
+ .pricingCol ul li{
+    list-style: none;
+ }
+ .pricingCol img{
+  margin-left: 40px;
+ }
+ .pricingCol:hover{
+  border: 5px dotted orange;
+ }
+
+ /* lastest blog  */
+
+ .hoverEffect:hover{
+  box-shadow:0.1px 0.1px 10px 0.1px black;
+
+ }
+ 
+ /* form  */
+ .input{
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  box-shadow:0.1px 0.1px 3px 0.01px black;
+
+ }
+
+ /* Have Any Project in Mind ? */
+ .rect{
+  border-radius: 15px;
+ }
